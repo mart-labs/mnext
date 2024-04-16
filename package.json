@@ -1,5 +1,5 @@
 {
-  "name": "mart-react",
+  "name": "mart-next",
   "version": "0.0.1",
   "description": "Components and hooks prepared and ready for user in react or next. It is not a ui component library",
   "main": "dist/index.js",
@@ -38,6 +38,7 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
     "lucide-react": "^0.368.0",
+    "next-themes": "^0.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "tailwind-merge": "^2.2.2",

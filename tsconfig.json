@@ -7,17 +7,14 @@
     "jsx": "react-jsx",
     "esModuleInterop": true,
     "strict": true,
-    "skipLibCheck": true,
-    "baseUrl": "src",
-    "paths": {
-      "@/*": ["./*"]
-    }
+    "skipLibCheck": true
   },
   "include": ["src"],
   "exclude": [
     "node_modules",
-    "src/**/**/*.stories.ts",
-    "src/components/ui",
-    "src/lib"
+    "src/**/**/stories",
+    "src/components/ui/**",
+    "src/lib/*.ts",
+    "src/stories"
   ]
 }

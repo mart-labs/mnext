@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import { H1 } from "../Typography";
+import { H1 } from "../";
 
 interface Props {
   title: string;

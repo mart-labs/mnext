@@ -1,8 +1,6 @@
-import { HTMLProps } from "react";
+import { H1Props } from "../../models";
 
-interface Props extends HTMLProps<HTMLHeadingElement> {}
-
-export function H1({ className, children, ...props }: Props) {
+export function H1({ className, children, ...props }: H1Props) {
   return (
     <h1
       {...props}

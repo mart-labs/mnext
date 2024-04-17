@@ -1,13 +1,5 @@
-import { ReactNode } from "react";
-import { H1 } from "../";
-
-interface Props {
-  title: string;
-  description?: ReactNode;
-  buttons?: ReactNode;
-  className?: string;
-  borderBottom?: boolean;
-}
+import { H1 } from "../Typography/h1";
+import { HeadingWrapperProps } from "../../models";
 
 export function HeadingWrapper({
   title,
@@ -15,7 +7,7 @@ export function HeadingWrapper({
   buttons,
   className,
   borderBottom,
-}: Props) {
+}: HeadingWrapperProps) {
   return (
     <div
       className={`flex flex-col items-center px-5 ${borderBottom ? "border-b" : ""} ${className}`}

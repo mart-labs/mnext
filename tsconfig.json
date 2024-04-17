@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "lib": ["dom", "es2015"],
     "target": "ES6",
     "module": "CommonJS",
     "outDir": "./dist",
@@ -15,6 +16,7 @@
     "src/**/**/stories",
     "src/components/ui/**",
     "src/lib/*.ts",
-    "src/stories"
+    "src/stories",
+    "dist"
   ]
 }

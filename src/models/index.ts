@@ -1,2 +1,2 @@
+export * from './h1';
 export * from './heading-wrapper';
-export * from './Typography';

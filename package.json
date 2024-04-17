@@ -12,7 +12,7 @@
     "ts:build": "tsc",
     "githud:push -a -c": "git add . && git commit && git push",
     "githud:push -a -c -m": "git add . && git commit -m 'changes made to the code, automatic push' && git push",
-    "npm:publish": "npm run ts:build && npm publish"
+    "npm:publish -b": "npm run ts:build && npm publish"
   },
   "keywords": [],
   "author": "jeffersonlopezmendoza343@gmail.com",

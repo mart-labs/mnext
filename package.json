@@ -1,6 +1,6 @@
 {
   "name": "mart-next",
-  "version": "0.0.8",
+  "version": "0.0.14",
   "description": "Components and hooks prepared and ready for user in react or next. It is not a ui component library",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -38,6 +38,7 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
     "lucide-react": "^0.368.0",
+    "next": "^14.2.1",
     "next-themes": "^0.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",

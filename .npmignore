@@ -13,3 +13,4 @@ components.json
 postcss.config.js
 tailwind.config.js
 dist/lib
+src

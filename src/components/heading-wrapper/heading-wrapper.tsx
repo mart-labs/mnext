@@ -10,7 +10,7 @@ export function HeadingWrapper({
 }: HeadingWrapperProps) {
   return (
     <div
-      className={`flex flex-col items-center px-5 ${borderBottom ? "border-b" : ""} ${className}`}
+      className={`flex flex-col items-center ${borderBottom ? "border-b" : ""} ${className}`}
     >
       <header className="w-full max-w-[1220px] py-10 flex justify-between gap-4 max-md:flex-col">
         <div className="flex flex-col justify-start gap-2">

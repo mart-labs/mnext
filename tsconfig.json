@@ -16,8 +16,8 @@
   "exclude": [
     "node_modules",
     "src/**/**/stories",
-    "src/components/ui/**",
-    "src/lib/*.ts",
+    "src/components/ui",
+    "src/lib",
     "src/stories",
     "dist"
   ]

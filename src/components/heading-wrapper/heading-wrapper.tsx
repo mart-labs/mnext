@@ -1,4 +1,4 @@
-import { H1 } from "../Typography/h1";
+import { H1 } from "../typography/h1";
 import { HeadingWrapperProps } from "../../models";
 
 export function HeadingWrapper({

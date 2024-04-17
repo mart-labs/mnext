@@ -35,6 +35,7 @@ export const header: Story = {
 };
 export const example: Story = {
   args: {
+    className: "px-10",
     borderBottom: true,
     title: "What does Vercel do?",
     description: (

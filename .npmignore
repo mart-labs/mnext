@@ -13,4 +13,6 @@ components.json
 postcss.config.js
 tailwind.config.js
 dist/lib
+dist/components/ui
+dist/components/ui
 src

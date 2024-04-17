@@ -1,6 +1,6 @@
 {
   "name": "mart-next",
-  "version": "0.0.14",
+  "version": "0.1.14",
   "description": "Components and hooks prepared and ready for user in react or next. It is not a ui component library",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -9,11 +9,14 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "tsc": "tsc",
-    "tsc:build": "tsc"
+    "ts:build": "tsc",
+    "githud:push -a -c": "git add . && git commit && git push",
+    "githud:push -a -c -m": "git add . && git commit -m 'changes made to the code, automatic push' && git push",
+    "npm:publish": "npm run ts:build && npm publish"
   },
   "keywords": [],
   "author": "jeffersonlopezmendoza343@gmail.com",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@chromatic-com/storybook": "1.3.2",
     "@storybook/addon-essentials": "^8.0.8",
@@ -35,8 +38,10 @@
   "dependencies": {
     "@radix-ui/react-icons": "^1.3.0",
     "@radix-ui/react-slot": "^1.0.2",
+    "@storybook/theming": "^8.0.8",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
+    "framer-motion": "^11.1.3",
     "lucide-react": "^0.368.0",
     "next": "^14.2.1",
     "next-themes": "^0.3.0",

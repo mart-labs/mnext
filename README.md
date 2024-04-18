@@ -1,16 +1,10 @@
 <p align="center">
     <picture>
-      <source srcset="./public/logo-mart-square.svg">
-      <img  src="./public/logo-mart-square.svg" height="128">
+      <source srcset="https://raw.githubusercontent.com/mart-org/mart-next/f7429c04281769b3e7b1000f42efa604ffa5f9f1/public/logo-mart-square.svg">
+      <img style="border-radius: 12px;"  src="https://raw.githubusercontent.com/mart-org/mart-next/f7429c04281769b3e7b1000f42efa604ffa5f9f1/public/logo-mart-square.svg" height="128">
     </picture>
     <h1 align="center">Mart Next</h1>
 </p>
-
-<style>
-img {
-border-radius: 12px;
-}
-</style>
 
 <!-- ## Getting Started
 

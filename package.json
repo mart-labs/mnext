@@ -1,6 +1,6 @@
 {
   "name": "mart-next",
-  "version": "0.1.14",
+  "version": "0.1.16",
   "description": "Components and hooks prepared and ready for user in react or next. It is not a ui component library",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -12,7 +12,8 @@
     "ts:build": "tsc",
     "githud:push -a -c": "git add . && git commit && git push",
     "githud:push -a -c -m": "git add . && git commit -m 'changes made to the code, automatic push' && git push",
-    "npm:publish -b": "npm run ts:build && npm publish"
+    "npm:publish -b": "npm run ts:build && npm publish",
+    "npm:publish": "npm publish"
   },
   "keywords": [],
   "author": "jeffersonlopezmendoza343@gmail.com",

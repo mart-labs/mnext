@@ -12,4 +12,4 @@ Use mart next in your next js apps recommended, in case you are using react, I d
 
 ## Documentation
 
-Visit [docs of components]() or view [full documentation]()
+Visit [docs of components](https://docs-components-mart-next.onrender.com/?path=/docs/components-counter--docs) or view [full documentation]()

@@ -3,7 +3,7 @@ name: BUILD AND PUBLISH
 on:
   push:
     branches: ["master"]
-  workflow_dispath:
+  workflow_dispatch:
 
 jobs:
   build:

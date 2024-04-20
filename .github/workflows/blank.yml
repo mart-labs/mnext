@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "build"
-        run: npm run ts:build
+        run: ts:build

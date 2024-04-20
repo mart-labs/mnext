@@ -1,2 +1,2 @@
-export * from './h1';
-export * from './heading-wrapper';
+export { H1Props } from './h1';
+export { HeadingWrapperProps } from './heading-wrapper';

@@ -1,1 +1,1 @@
-export * from './h1';
+export { H1 } from './h1';

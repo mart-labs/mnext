@@ -10,4 +10,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "build"
-        run: ts:build
+        with:
+          command: ts:build

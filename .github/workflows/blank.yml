@@ -11,4 +11,5 @@ jobs:
     steps:
       - name: "build"
         with:
+          package-manager: npm
           command: ts:build

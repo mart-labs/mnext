@@ -1,3 +1,5 @@
+"use client";
+
 import { useState, useEffect, RefObject } from "react";
 
 export function useClientRect(ref: RefObject<HTMLElement | null>) {

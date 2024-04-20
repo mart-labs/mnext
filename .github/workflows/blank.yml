@@ -1,0 +1,13 @@
+name: BUILD AND PUBLISH
+
+on:
+  push:
+    branches: ["master"]
+  workflow_dispath:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "build"
+        run: npm run ts:build

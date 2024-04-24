@@ -1,6 +1,6 @@
 {
   "name": "mart-next",
-  "version": "0.2.19",
+  "version": "0.2.22",
   "description": "Components and hooks prepared and ready for user in react or next. It is not a ui component library",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
